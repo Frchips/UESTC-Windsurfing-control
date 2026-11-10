@@ -1,0 +1,87 @@
+{
+  "name": "基于运放和比较器制作的PID温控PWM风扇调速器",
+  "owner_uuid": "ab108d904eb84ff9b4c0f85cfbfc7bbe",
+  "creator_uuid": "ab108d904eb84ff9b4c0f85cfbfc7bbe",
+  "created_at": "2026-11-09 22:03:16",
+  "updated_at": "2026-11-09 22:03:16",
+  "modifier_uuid": "ab108d904eb84ff9b4c0f85cfbfc7bbe",
+  "content": "<p>使用NTC热敏电阻B3950 20K，R22阻值9.1K为NTC在~=43°C时的阻值，改变R22的阻值即可改变PID的给定温度。</p>\n<p>占空比根据NTC探头温度输入PID电路自动调节，占空比范围0%~100%。</p>\n<p>D1 zmm3v3稳压二极管，设计稳压在3.3v，实测在3.0~3.1附近，故PWM频率只有9.7~9.8KHz，达不到设计目标10KHz，但不太影响性能。</p>\n<p>跪求更好的稳压方法 Orz...</p>\n<p>本人用的风扇在PWM 3KHz以下会有啸叫声，实测9.7KHz听不到。</p>\n<p>实物图<img src=\"https://image.lceda.cn/oshwhub/pullImage/7c3bf8607ace49fda622add862070606.jpg\" alt=\"实物\" width=\"1920\" height=\"2560\"></p>\n<p>框框中温度基本稳定</p>\n<p><img src=\"https://image.lceda.cn/oshwhub/pullImage/56178eb4746742db9af1a561bc012d03.png\" alt=\"框框处温度基本稳定\" width=\"1164\" height=\"804\"></p>\n<p>PWM波形</p>\n<p><img src=\"https://image.lceda.cn/oshwhub/pullImage/7454ed15d9c34254915648ea229a7e0f.jpg\" alt=\"PWM波型\" width=\"1920\" height=\"2560\"></p>\n<p>正在运行</p>\n<p><img src=\"https://image.lceda.cn/oshwhub/pullImage/fa8a960a3314452394b9d38c7d94a269.jpg\" alt=\"运行的样子\" width=\"1920\" height=\"2560\"></p>",
+  "archive": false,
+  "cbb_project": 0,
+  "thumb": "",
+  "ticket": 1,
+  "g_ticket": 1,
+  "boards": [],
+  "block_symbol_attrs_groups": {},
+  "default_sheet": "9f3b899ed6f74c52",
+  "branch_uuid": "",
+  "pcb_count": 0,
+  "format": "folder",
+  "config": {
+    "defaultSheet": "9f3b899ed6f74c52",
+    "settings": {}
+  },
+  "profile": {
+    "boards": {
+      "8e2dbbd8126c3e3d": {
+        "uuid": "8e2dbbd8126c3e3d",
+        "title": "Board1",
+        "zIndex": 1
+      }
+    },
+    "schematics": {
+      "9337cbffc4d94db7992ffc07d21edb3e": {
+        "uuid": "9337cbffc4d94db7992ffc07d21edb3e",
+        "name": "Schematic1",
+        "board": "8e2dbbd8126c3e3d",
+        "version": "1794297679812",
+        "updateTime": 1794297679812
+      }
+    },
+    "sheets": {
+      "a5aa9528518540f69f1a8d8867a4c599": {
+        "uuid": "a5aa9528518540f69f1a8d8867a4c599",
+        "title": "P1",
+        "schematic_uuid": "9337cbffc4d94db7992ffc07d21edb3e",
+        "zIndex": 1,
+        "version": "1794297679812",
+        "updateTime": 1794297679812
+      }
+    },
+    "pcbs": {
+      "c6aad542c1b44a41ade3c3ba25ce61a9": {
+        "uuid": "c6aad542c1b44a41ade3c3ba25ce61a9",
+        "title": "PCB1",
+        "board": "8e2dbbd8126c3e3d",
+        "parent_uuid": "",
+        "version": "1749181168000",
+        "updateTime": 1749181168000
+      }
+    },
+    "panels": {},
+    "blockSymbols": {},
+    "owner": {
+      "uuid": "ab108d904eb84ff9b4c0f85cfbfc7bbe"
+    },
+    "simSchematics": {
+      "aca8c58c16e4780b": {
+        "uuid": "aca8c58c16e4780b",
+        "title": "Simulation1",
+        "source": "",
+        "version": "1794294647898",
+        "updateTime": 1794294647898
+      }
+    },
+    "simulations": {
+      "eefdda8c59c7f39b": {
+        "uuid": "eefdda8c59c7f39b",
+        "title": "NGspice1",
+        "simSchematic": "aca8c58c16e4780b",
+        "docType": 8,
+        "zIndex": 1,
+        "source": "",
+        "version": "1794294651900"
+      }
+    }
+  }
+}
