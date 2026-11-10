@@ -1,0 +1,18 @@
+# OS junk
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# Office lock files
+~$*
+*.tmp
+*.bak
+*.orig
+
+# LCEDA local caches / backups
+*.log
+*_backup/
+
+# editor
+.vscode/
+.idea/

@@ -1,0 +1,114 @@
+{
+  "name": "synaix",
+  "owner_uuid": "ab108d904eb84ff9b4c0f85cfbfc7bbe",
+  "creator_uuid": "ab108d904eb84ff9b4c0f85cfbfc7bbe",
+  "created_at": "2026-11-09 22:48:57",
+  "updated_at": "2026-11-09 22:48:57",
+  "modifier_uuid": "ab108d904eb84ff9b4c0f85cfbfc7bbe",
+  "content": "",
+  "archive": false,
+  "cbb_project": 0,
+  "thumb": "",
+  "ticket": 1,
+  "g_ticket": 1,
+  "boards": [],
+  "block_symbol_attrs_groups": {},
+  "default_sheet": "d6993b28823974dc",
+  "branch_uuid": "",
+  "pcb_count": 0,
+  "format": "folder",
+  "profile": {
+    "boards": {
+      "9c89da116a9bc201": {
+        "uuid": "9c89da116a9bc201",
+        "title": "Board1",
+        "zIndex": 1
+      }
+    },
+    "schematics": {
+      "ad1010547452fca6": {
+        "uuid": "ad1010547452fca6",
+        "name": "Schematic1",
+        "board": "9c89da116a9bc201",
+        "source": "",
+        "version": "1794307427867",
+        "updateTime": 1794307427867
+      }
+    },
+    "sheets": {
+      "03b50fae7819594b": {
+        "uuid": "03b50fae7819594b",
+        "title": "P1",
+        "schematic_uuid": "ad1010547452fca6",
+        "zIndex": 1,
+        "source": "",
+        "version": "1794307427867",
+        "updateTime": 1794307427867
+      }
+    },
+    "pcbs": {
+      "6bc8ac900148acf0": {
+        "uuid": "6bc8ac900148acf0",
+        "title": "PCB1",
+        "board": "9c89da116a9bc201",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1794235747448",
+        "updateTime": 1794235747448
+      }
+    },
+    "panels": {
+      "22cff00747c6e2b7": {
+        "uuid": "22cff00747c6e2b7",
+        "title": "Panel1",
+        "zIndex": null
+      }
+    },
+    "blockSymbols": {},
+    "owner": {
+      "uuid": "ab108d904eb84ff9b4c0f85cfbfc7bbe"
+    },
+    "simSchematics": {
+      "358f5336602b5ab3": {
+        "uuid": "358f5336602b5ab3",
+        "title": "Simulation1",
+        "source": "",
+        "version": "1794294669545",
+        "updateTime": 1794294669545
+      }
+    },
+    "simulations": {
+      "3c60e0290055618f": {
+        "uuid": "3c60e0290055618f",
+        "title": "NGspice1",
+        "simSchematic": "358f5336602b5ab3",
+        "docType": 8,
+        "zIndex": 1,
+        "source": "",
+        "version": "1794295493315"
+      }
+    }
+  },
+  "config": {
+    "defaultSheet": "d6993b28823974dc",
+    "settings": {
+      "UNIVERSAL": {
+        "dataType": "UNIVERSAL",
+        "data": {
+          "allowLibRename": true,
+          "defaultNetName": true,
+          "wireMultipleNet": true,
+          "netFlagCrossLayerConnection": true,
+          "netLabelCrossPageConnection": true,
+          "busGenerateNetClass": true,
+          "relevanceDisplayRow": "SINGLE",
+          "relevanceBelongSchPage": "NAME",
+          "relevanceLocation": "ZONE",
+          "multipartCrossLayer": true,
+          "nonElectronicAddIntoBom": false,
+          "nonElectronicUpdatePcb": false
+        }
+      }
+    }
+  }
+}
