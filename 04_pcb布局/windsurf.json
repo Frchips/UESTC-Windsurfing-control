@@ -1,0 +1,934 @@
+{
+  "id": "9a0385d5-7d18-4537-91e4-5cb2ffa3b1d0",
+  "name": "windsurf",
+  "board": {
+    "kind": "perfboard",
+    "width": 55,
+    "height": 37
+  },
+  "files": [],
+  "importState": {
+    "components": [],
+    "nets": [],
+    "warnings": []
+  },
+  "components": [
+    {
+      "id": "7a8fb11f-7223-4721-9447-5e76357e75ef",
+      "kind": "dip",
+      "label": "DIP14",
+      "name": "DIP1",
+      "value": "",
+      "pinCount": 14,
+      "leadSpacing": 3,
+      "rowSpacing": 3,
+      "sameSidePitch": 1,
+      "pinOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          0,
+          5
+        ],
+        [
+          0,
+          6
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          4
+        ],
+        [
+          3,
+          3
+        ],
+        [
+          3,
+          2
+        ],
+        [
+          3,
+          1
+        ],
+        [
+          3,
+          0
+        ]
+      ],
+      "position": [
+        8,
+        13
+      ],
+      "rotation": 1.5707963267948966,
+      "mounted": true
+    },
+    {
+      "id": "fc0fd907-dc11-48ed-899e-eff10f3794c4",
+      "kind": "radial_capacitor",
+      "label": "C",
+      "name": "C2",
+      "value": "",
+      "leadSpacing": 1,
+      "rowSpacing": 0,
+      "sameSidePitch": 1,
+      "pinOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "position": [
+        10,
+        9
+      ],
+      "rotation": 0,
+      "mounted": true
+    },
+    {
+      "id": "6b8e07d7-9383-4f37-871e-31ecb8992e8e",
+      "kind": "resistor",
+      "label": "R",
+      "name": "R3",
+      "value": "",
+      "leadSpacing": 4,
+      "rowSpacing": 0,
+      "sameSidePitch": 1,
+      "pinOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "position": [
+        5,
+        9
+      ],
+      "rotation": 0,
+      "mounted": true
+    },
+    {
+      "id": "3e01b071-0b50-43ba-a807-db1a47fe2d6b",
+      "kind": "resistor",
+      "label": "R",
+      "name": "R4",
+      "value": "",
+      "leadSpacing": 4,
+      "rowSpacing": 0,
+      "sameSidePitch": 1,
+      "pinOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "position": [
+        9,
+        8
+      ],
+      "rotation": 1.5707963267948966,
+      "mounted": true
+    },
+    {
+      "id": "d8dc8ce0-ead0-413c-9e9d-ac366ef96892",
+      "kind": "radial_capacitor",
+      "label": "C",
+      "name": "C5",
+      "value": "",
+      "leadSpacing": 1,
+      "rowSpacing": 0,
+      "sameSidePitch": 1,
+      "pinOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "position": [
+        13,
+        9
+      ],
+      "rotation": 0,
+      "mounted": true
+    },
+    {
+      "id": "da425e8b-0889-4488-867a-4f4b126ac9f7",
+      "kind": "resistor",
+      "label": "R",
+      "name": "R6",
+      "value": "",
+      "leadSpacing": 4,
+      "rowSpacing": 0,
+      "sameSidePitch": 1,
+      "pinOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "position": [
+        13,
+        8
+      ],
+      "rotation": 7.853981633974483,
+      "mounted": true
+    },
+    {
+      "id": "a9de92f4-18f0-4f95-bbeb-c2266c951063",
+      "kind": "resistor",
+      "label": "R",
+      "name": "R7",
+      "value": "",
+      "leadSpacing": 4,
+      "rowSpacing": 0,
+      "sameSidePitch": 1,
+      "pinOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "position": [
+        5,
+        14
+      ],
+      "rotation": 0,
+      "mounted": true
+    },
+    {
+      "id": "f6ee1c58-7c6c-4230-9754-683418f82d05",
+      "kind": "radial_capacitor",
+      "label": "C",
+      "name": "C8",
+      "value": "",
+      "leadSpacing": 1,
+      "rowSpacing": 0,
+      "sameSidePitch": 1,
+      "pinOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "position": [
+        11,
+        15
+      ],
+      "rotation": 1.5707963267948966,
+      "mounted": true
+    },
+    {
+      "id": "d1e1bb75-463e-4386-a549-1b0381bca8ba",
+      "kind": "resistor",
+      "label": "R",
+      "name": "R9",
+      "value": "",
+      "leadSpacing": 4,
+      "rowSpacing": 0,
+      "sameSidePitch": 1,
+      "pinOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "position": [
+        12,
+        18
+      ],
+      "rotation": 1.5707963267948966,
+      "mounted": true
+    },
+    {
+      "id": "4d1e2fc6-9f26-41fa-92a9-5074d6b84bf9",
+      "kind": "resistor",
+      "label": "R",
+      "name": "R10",
+      "value": "",
+      "leadSpacing": 4,
+      "rowSpacing": 0,
+      "sameSidePitch": 1,
+      "pinOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "position": [
+        13,
+        14
+      ],
+      "rotation": 0,
+      "mounted": true
+    },
+    {
+      "id": "a9d39780-1066-47e6-9813-891c69fdde63",
+      "kind": "resistor",
+      "label": "R",
+      "name": "R11",
+      "value": "",
+      "leadSpacing": 4,
+      "rowSpacing": 0,
+      "sameSidePitch": 1,
+      "pinOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "position": [
+        13,
+        19
+      ],
+      "rotation": 1.5707963267948966,
+      "mounted": true
+    },
+    {
+      "id": "0aab3912-2970-4228-a050-a911fe34f1b2",
+      "kind": "resistor",
+      "label": "R",
+      "name": "R12",
+      "value": "",
+      "leadSpacing": 4,
+      "rowSpacing": 0,
+      "sameSidePitch": 1,
+      "pinOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          4,
+          0
+        ]
+      ],
+      "position": [
+        13,
+        24
+      ],
+      "rotation": 1.5707963267948966,
+      "mounted": true
+    },
+    {
+      "id": "f1fb5ad2-63f2-41cf-91ed-a24730781165",
+      "kind": "radial_capacitor",
+      "label": "C",
+      "name": "C13",
+      "value": "",
+      "leadSpacing": 1,
+      "rowSpacing": 0,
+      "sameSidePitch": 1,
+      "pinOffsets": [
+        [
+          0,
+          0
+        ],
+        [
+          1,
+          0
+        ]
+      ],
+      "position": [
+        12,
+        25
+      ],
+      "rotation": 0,
+      "mounted": true
+    }
+  ],
+  "routing": {
+    "traces": [
+      {
+        "id": "7a774583-424d-447f-8904-735e651a9d02",
+        "net": "MANUAL",
+        "points": [
+          [
+            9,
+            8
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "d65327cd-73e2-4f96-987c-c334186d34f2",
+        "net": "MANUAL",
+        "points": [
+          [
+            9,
+            9
+          ],
+          [
+            9,
+            10
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "5c2fcbda-88b8-437c-9b89-4db62db65daf",
+        "net": "MANUAL",
+        "points": [
+          [
+            9,
+            10
+          ],
+          [
+            9,
+            9
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "eab20737-4d9e-4674-b3ec-f7c6cff1f10f",
+        "net": "MANUAL",
+        "points": [
+          [
+            8,
+            10
+          ],
+          [
+            7,
+            10
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "69d09ca7-1fdc-4db1-baa0-342046fd15e6",
+        "net": "MANUAL",
+        "points": [
+          [
+            7,
+            10
+          ],
+          [
+            6,
+            10
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "87dd26e6-cf34-4b69-a59d-4f5ce48ea8a0",
+        "net": "MANUAL",
+        "points": [
+          [
+            5,
+            10
+          ],
+          [
+            6,
+            10
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "cab27abd-c2f2-4734-ba36-05111d489268",
+        "net": "MANUAL",
+        "points": [
+          [
+            5,
+            9
+          ],
+          [
+            5,
+            10
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "6be7ac2a-ad87-4888-ac52-2ae812e7d74c",
+        "net": "MANUAL",
+        "points": [
+          [
+            10,
+            9
+          ],
+          [
+            10,
+            10
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "def225d9-cced-40ea-9981-7326e02b0353",
+        "net": "MANUAL",
+        "points": [
+          [
+            11,
+            9
+          ],
+          [
+            11,
+            10
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "1b04ae1a-96ba-4a18-a54b-08e033651a5f",
+        "net": "MANUAL",
+        "points": [
+          [
+            13,
+            9
+          ],
+          [
+            13,
+            10
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "d36b3bf0-751f-4f61-ab11-3e099ca2666e",
+        "net": "MANUAL",
+        "points": [
+          [
+            13,
+            8
+          ],
+          [
+            13,
+            9
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "a90e35b3-65d0-4442-8ab7-b220399891e5",
+        "net": "MANUAL",
+        "points": [
+          [
+            14,
+            9
+          ],
+          [
+            14,
+            10
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "e5768327-616f-4b4b-83b9-92d457454285",
+        "net": "MANUAL",
+        "points": [
+          [
+            8,
+            13
+          ],
+          [
+            7,
+            13
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "bbe55cae-6fa8-4722-ab31-b922086cf7fd",
+        "net": "MANUAL",
+        "points": [
+          [
+            7,
+            13
+          ],
+          [
+            6,
+            13
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "52a3f0f9-36b5-4a57-adb4-1c0d59fe704f",
+        "net": "MANUAL",
+        "points": [
+          [
+            6,
+            13
+          ],
+          [
+            5,
+            13
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "16c89b7a-8d20-4696-999a-0b8588e76a79",
+        "net": "MANUAL",
+        "points": [
+          [
+            5,
+            13
+          ],
+          [
+            5,
+            14
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "ec42f2e7-57b4-48b0-a90b-22d81020b6ee",
+        "net": "MANUAL",
+        "points": [
+          [
+            11,
+            13
+          ],
+          [
+            11,
+            14
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "9ef9c6cf-de32-4e6e-8dfb-d473a6361bc4",
+        "net": "MANUAL",
+        "points": [
+          [
+            14,
+            13
+          ],
+          [
+            15,
+            13
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "59eacd69-febe-4207-b8e8-67de22cfd7b5",
+        "net": "MANUAL",
+        "points": [
+          [
+            15,
+            13
+          ],
+          [
+            16,
+            13
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "107ce44d-fb38-4965-9b91-76eddfbd9cf1",
+        "net": "MANUAL",
+        "points": [
+          [
+            16,
+            13
+          ],
+          [
+            17,
+            13
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "f60ae7f5-99e2-4fc1-b5ed-c6be30205f69",
+        "net": "MANUAL",
+        "points": [
+          [
+            17,
+            13
+          ],
+          [
+            17,
+            14
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "ad04462a-d849-487e-aadb-b3ac1aff3f3e",
+        "net": "MANUAL",
+        "points": [
+          [
+            13,
+            13
+          ],
+          [
+            13,
+            14
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "92ed9b1e-84d2-4310-a3b7-3ece658d979a",
+        "net": "MANUAL",
+        "points": [
+          [
+            13,
+            14
+          ],
+          [
+            13,
+            15
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "3d37295a-89ec-48e3-b295-fe6eb2984384",
+        "net": "MANUAL",
+        "points": [
+          [
+            12,
+            13
+          ],
+          [
+            12,
+            14
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "8142ab13-a438-41d4-969a-a51fb6af0b27",
+        "net": "MANUAL",
+        "points": [
+          [
+            13,
+            19
+          ],
+          [
+            13,
+            20
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "8eb045e9-530a-4ef5-b6c0-d099576db755",
+        "net": "MANUAL",
+        "points": [
+          [
+            13,
+            24
+          ],
+          [
+            13,
+            25
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "63b2da34-0bc2-4e48-aa4c-856767dcea33",
+        "net": "MANUAL",
+        "points": [
+          [
+            12,
+            25
+          ],
+          [
+            12,
+            24
+          ],
+          [
+            12,
+            23
+          ],
+          [
+            12,
+            22
+          ],
+          [
+            12,
+            21
+          ],
+          [
+            12,
+            20
+          ],
+          [
+            12,
+            19
+          ],
+          [
+            12,
+            18
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "f662589b-7bba-4c7f-8cb4-f762edc0e301",
+        "net": "MANUAL",
+        "points": [
+          [
+            8,
+            13
+          ],
+          [
+            8,
+            12
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "6c842732-2782-4b90-9bd1-ab9f2308487f",
+        "net": "MANUAL",
+        "points": [
+          [
+            8,
+            12
+          ],
+          [
+            9,
+            12
+          ],
+          [
+            10,
+            12
+          ],
+          [
+            11,
+            12
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      },
+      {
+        "id": "cdbd43a5-4616-42d6-b9a4-2731354e9196",
+        "net": "MANUAL",
+        "points": [
+          [
+            11,
+            12
+          ],
+          [
+            12,
+            12
+          ],
+          [
+            13,
+            12
+          ],
+          [
+            13,
+            13
+          ]
+        ],
+        "layer": "bottom",
+        "locked": true
+      }
+    ],
+    "jumpers": [],
+    "failedNets": [],
+    "warnings": []
+  },
+  "constraints": [],
+  "constraintSchemaVersion": 1,
+  "createdAt": "2026-11-13T13:29:31.305Z"
+}
